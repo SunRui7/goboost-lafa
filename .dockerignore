@@ -1,0 +1,16 @@
+*
+!Dockerfile
+!requirements-lafa.txt
+!lafa_main.py
+!megraph/
+!megraph/**
+!data/
+data/*
+!data/nrPDB-GO_2019.06.18_annot.tsv
+!data/DMETrain/
+data/DMETrain/*
+!data/DMETrain/distribution_bp_All.txt
+!data/DMETrain/distribution_mf_All.txt
+!data/DMETrain/distribution_cc_All.txt
+**/__pycache__/
+**/*.pyc

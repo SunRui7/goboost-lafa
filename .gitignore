@@ -1,0 +1,24 @@
+# Downloaded model artifacts are reproducible from Zenodo record 14048928 and
+# are far above GitHub's per-file limit. Never commit them to the source repo.
+Model/
+Model.zip
+*.aria2
+*.whl
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+output/
+*.tsv.gz
+
+# Only the small, frozen label/distribution files needed to reproduce the
+# container belong in the public source repository. LAFA release files are
+# supplied at runtime and the original training/test data are too large.
+data/*
+!data/nrPDB-GO_2019.06.18_annot.tsv
+!data/DMETrain/
+data/DMETrain/*
+!data/DMETrain/distribution_bp_All.txt
+!data/DMETrain/distribution_mf_All.txt
+!data/DMETrain/distribution_cc_All.txt
