@@ -156,3 +156,19 @@ docker push aubrey7/goboost-lafa:v1
 Submission and reproducibility notes are in [LAFA_SUBMISSION.md](LAFA_SUBMISSION.md).
 A ready-to-paste Docker Hub repository description is in
 [DOCKERHUB_OVERVIEW.md](DOCKERHUB_OVERVIEW.md).
+
+## License
+
+The original LAFA containerization code authored for this repository is
+licensed under the MIT License. See
+[LICENSE-CONTAINER-CODE](LICENSE-CONTAINER-CODE).
+
+This license applies only to the original containerization and LAFA
+integration components authored for this repository, including the
+Dockerfile, `lafa_main.py`, LAFA validation scripts, tests, dependency
+configuration, and container documentation.
+
+Code derived from
+[Cao-Labs/GOBoost](https://github.com/Cao-Labs/GOBoost) is not covered by
+this license and remains subject to the license selected by the original
+GOBoost copyright holders.
